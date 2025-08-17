@@ -1,0 +1,18 @@
+<!-- public/404.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <!-- 核心：将所有 404 页面重定向到 index.html，并并保留原始路径 -->
+    <script>
+      // 获取当前 URL 路径（包含查询参数）
+      const path = window.location.pathname + window.location.search
+      // 重定向到 index.html，并并通过 hash 保留原始路径
+      window.location.replace('/Monica-Chen/index.html#' + path)
+    </script>
+  </head>
+  <body>
+    <p>正在跳转...</p>
+  </body>
+</html>
