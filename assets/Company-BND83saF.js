@@ -1,0 +1,1 @@
+import{_ as o,c as s,e as n,o as t}from"./index-DLPCXYcr.js";const c={},a={class:"company"};function r(_,e){return t(),s("div",a,e[0]||(e[0]=[n("h1",null,"22222",-1)]))}const d=o(c,[["render",r]]);export{d as default};
